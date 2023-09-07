@@ -123,8 +123,8 @@ body{
     
     .login {
         margin-top: 1vh;
-        margin-left: -2vw;
-        padding-left: 50vw;
+        margin-left: -1vw;
+        padding-left: 10vw;
     }
     
     .login a{
@@ -227,7 +227,7 @@ body{
         position: relative;
         top: 0vh;
         right: 1vw;
-        margin-left: 79vw;
+        margin-left: 77vw;
         font-weight: 600;
         font-size: 100px;
         -webkit-text-stroke: 1px #4ab031d4;
@@ -284,10 +284,10 @@ body{
         position: relative;
         top: 0vh;
         right: 1vw;
-        margin-left: 79vw;
+        margin-left: 76vw;
         font-weight: 600;
         font-size: 100px;
-        -webkit-text-stroke: 1px #4ab031d4;
+        -webkit-text-stroke: 0.7px #4ab03176;
         color: transparent;
         transition: all 0.3s ease;
         opacity: 0.4;
@@ -341,10 +341,10 @@ body{
         position: relative;
         top: 0vh;
         right: 1vw;
-        margin-left: 79vw;
+        margin-left: 76vw;
         font-weight: 600;
         font-size: 100px;
-        -webkit-text-stroke: 1px #4ab031d4;
+        -webkit-text-stroke: 0.7px #4ab03176;
         color: transparent;
         transition: all 0.3s ease;
         opacity: 0.4;
@@ -403,10 +403,10 @@ body{
         position: relative;
         top: 0vh;
         right: 1vw;
-        margin-left: 79vw;
+        margin-left: 76vw;
         font-weight: 600;
         font-size: 100px;
-        -webkit-text-stroke: 1px #4ab031d4;
+        -webkit-text-stroke: 0.7px #4ab03176;
         color: transparent;
         transition: all 0.3s ease;
         opacity: 0.4;
@@ -460,15 +460,16 @@ body{
     .ul .image img{
         width: 20vw;
         height: 40vh;
+        margin-left: 10vw;
     }
 
     .ul ul{
-        margin-top: 49vh;
-        margin-left: -23vw;
+        margin-top: 10vh;
     }
 
     li {
         list-style-type: none;
+        font-size: 20px;
     }
     
     li i{
@@ -476,6 +477,10 @@ body{
     margin-left: -5vw;
     font-size: 22px;
     color: rgba(27, 27, 27, 0.743);
+    }
+
+    li h4{
+        margin-top: -5vh;
     }
 
     .image img{
@@ -719,6 +724,72 @@ body{
         color: white;
         font-size: 20px;
     }
+    
+.contact {
+    margin-left: 2vw;
+}
+
+.contact p {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 2vh;
+    width: 30vw;
+}
+
+.us {
+    width: 27vw;
+}
+
+.call {
+    display: flex;
+    margin-top: 2vh;
+}
+
+.call i{
+    padding-right: 20px;
+    margin-top: 2.5vh;
+    font-size: 20px;
+}
+
+.number p{
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 1vh;
+}
+
+.mail {
+    display: flex;
+    margin-top: 2vh;
+}
+
+.mail i{
+    padding-right: 20px;
+    margin-top: 2.5vh;
+    font-size: 20px;
+}
+
+.email p{
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 1vh;
+}
+    
+.addy {
+    display: flex;
+    margin-top: 3vh;
+}
+
+.addy i{
+    padding-right: 20px;
+    margin-top: 2.5vh;
+    font-size: 20px;
+}
+
+.address p{
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 1vh;
+}
 
     .footer {
         background-color: rgb(39, 42, 42);
@@ -1447,6 +1518,23 @@ body{
         color: white;
         font-size: 20px;
     }
+        
+    .addy {
+        display: flex;
+        margin-top: 3vh;
+    }
+
+    .addy i{
+        padding-right: 20px;
+        margin-top: 2.5vh;
+        font-size: 20px;
+    }
+
+    .address p{
+        font-weight: normal;
+        font-size: 21px;
+        line-height: 1vh;
+    }
     
     .footer {
         background-color: rgb(39, 42, 42);
@@ -1792,69 +1880,4 @@ body{
     height: 70vh;
 }
 
-.contact {
-    margin-left: 2vw;
-}
-
-.contact p {
-    font-size: 40px;
-    font-weight: bold;
-    margin-top: 2vh;
-    width: 30vw;
-}
-
-.us {
-    width: 27vw;
-}
-
-.addy {
-    display: flex;
-    margin-top: 3vh;
-}
-
-.addy i{
-    padding-right: 20px;
-    margin-top: 2.5vh;
-    font-size: 20px;
-}
-
-.address p{
-    font-weight: normal;
-    font-size: 21px;
-    line-height: 1vh;
-}
-
-.call {
-    display: flex;
-    margin-top: 3vh;
-}
-
-.call i{
-    padding-right: 20px;
-    margin-top: 2.5vh;
-    font-size: 20px;
-}
-
-.number p{
-    font-weight: normal;
-    font-size: 21px;
-    line-height: 1vh;
-}
-
-.mail {
-    display: flex;
-    margin-top: 3vh;
-}
-
-.mail i{
-    padding-right: 20px;
-    margin-top: 2.5vh;
-    font-size: 20px;
-}
-
-.email p{
-    font-weight: normal;
-    font-size: 21px;
-    line-height: 1vh;
-}
 
